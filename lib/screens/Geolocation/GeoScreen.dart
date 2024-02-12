@@ -18,7 +18,10 @@ class _LocationPageState extends State<LocationPage> {
     LocationPermission permission;
 
     serviceEnabled = await Geolocator.isLocationServiceEnabled();
+
+
     if (!serviceEnabled) {
+      print(!serviceEnabled);
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text(
