@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/Geolocation/GeoScreen.dart';
 import 'package:flutter_application_1/screens/Notification/Notification.dart';
 import 'package:flutter_application_1/screens/example1/example.dart';
 import 'package:flutter_application_1/screens/validation/homescreen.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: NotificationScreen(),
+        home: GeoLocationScreen(),
       ),
       designSize: Size(375, 812),
     );
