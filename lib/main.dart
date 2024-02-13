@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/Geolocation/GeoScreen.dart';
+import 'package:flutter_application_1/screens/Layout_Builder/LayoutBuilder.dart';
+import 'package:flutter_application_1/screens/Notification/Notification.dart';
+import 'package:flutter_application_1/screens/RiveCat/RiveScreen.dart';
+import 'package:flutter_application_1/screens/Rive_Login/rive_login.dart';
 import 'package:flutter_application_1/screens/example1/example.dart';
 import 'package:flutter_application_1/screens/validation/homescreen.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
+  
   runApp(const MyApp());
 }
 
@@ -14,15 +20,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
+      
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: HomeScreen(),
+        home: const RiveLogin(),
+        // home: layoutBuidlerScreen(),
       ),
-      designSize: Size(375, 812),
+      // designSize: Size(375, 812),
     );
   }
 }
