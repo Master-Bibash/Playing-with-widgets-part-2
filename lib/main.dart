@@ -1,14 +1,23 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screens/Geolocation/GeoScreen.dart';
-import 'package:flutter_application_1/screens/Notification/Notification.dart';
-import 'package:flutter_application_1/screens/RiveCat/RiveScreen.dart';
-import 'package:flutter_application_1/screens/example1/example.dart';
-import 'package:flutter_application_1/screens/validation/homescreen.dart';
+import 'package:flutter_application_1/screens/Auto_Size_Text.dart/auto_size_home.dart';
+import 'package:flutter_application_1/screens/Drop_Down/DropHome.dart';
+import 'package:flutter_application_1/screens/Example_shared_prefrences/SharedHome.dart';
+import 'package:flutter_application_1/screens/Rive_Login/Extra.dart';
+import 'package:flutter_application_1/screens/Rive_Login/rive_login.dart';
+
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
+  
+  // print(SomeClass());
+  // print(SomeClass() == SomeClass());
+
   runApp(const MyApp());
 }
+
+// class SomeClass {
+//   final int x = 1;
+// }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -18,12 +27,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: RiveCatScreen(),
+        home: DropHome(),
+        // home: layoutBuidlerScreen(),
       ),
       // designSize: Size(375, 812),
     );

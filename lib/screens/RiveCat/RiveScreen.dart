@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:rive/rive.dart';
 
+// ignore: must_be_immutable
 class RiveCatScreen extends StatelessWidget {
 
   StateMachineController? controller;
+
+  RiveCatScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,6 +24,7 @@ class RiveCatScreen extends StatelessWidget {
                 if (controller == null) return;
                 artboard.addController(controller!);
               }),),
-        ),);
+        ),
+        );
   }
 }
