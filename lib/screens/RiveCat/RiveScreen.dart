@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rive/rive.dart';
 
 // ignore: must_be_immutable
 class RiveCatScreen extends StatelessWidget {
