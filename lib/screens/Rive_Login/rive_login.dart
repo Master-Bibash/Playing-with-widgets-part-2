@@ -255,7 +255,6 @@ class _RiveLoginState extends State<RiveLogin> {
                             Duration(seconds: 100),
                           );
                           if (mounted) Navigator.pop(context);
-
                           if (email == validEmail &&
                               password == validPassword) {
                             trigSuccess?.change(true);
