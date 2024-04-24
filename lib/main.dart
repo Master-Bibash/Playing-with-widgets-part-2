@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/screens/Drop_Down/DropHome.dart';
 import 'package:flutter_application_1/screens/animation/GuitarAdnimation/Guitar.dart';
 import 'package:flutter_application_1/screens/animation/fade_adnimation/fade.dart';
+import 'package:flutter_application_1/screens/connectivity_plus/connectivity.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home:const CustomDrawer(),
+        home:const CheckInternetConnectivity(),
         // home: layoutBuidlerScreen(),
       ),
       // designSize: Size(375, 812),
