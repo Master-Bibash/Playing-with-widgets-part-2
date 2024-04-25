@@ -25,7 +25,7 @@ class _AutoScreenTextAdjustState extends State<AutoScreenTextAdjust> {
               border: Border.all(
 
               ),),
-            child: Text("In the previous article, we have learned how to parse JSON into type-safe model classes in Dart.But writing all the JSON parsing code by hand ",
+            child: const Text("In the previous article, we have learned how to parse JSON into type-safe model classes in Dart.But writing all the JSON parsing code by hand ",
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
             maxLines: 3,
             
