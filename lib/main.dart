@@ -1,10 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screens/Auto_Size_Text.dart/auto_size_home.dart';
 import 'package:flutter_application_1/screens/Drop_Down/DropHome.dart';
-import 'package:flutter_application_1/screens/Example_shared_prefrences/SharedHome.dart';
-import 'package:flutter_application_1/screens/Rive_Login/Extra.dart';
-import 'package:flutter_application_1/screens/Rive_Login/rive_login.dart';
-
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
@@ -26,6 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
+      
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
