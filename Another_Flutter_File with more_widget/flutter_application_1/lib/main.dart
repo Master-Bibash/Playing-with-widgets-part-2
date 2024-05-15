@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Calender/Calendar.dart';
-import 'package:flutter_application_1/Form/form.dart';
+import 'package:just/NavBarPlay/NavbarHome.dart';
+
 
 void main() {
  
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  Formscreen(),
+      home:  NavHome(title: "apple",),
     );
   }
 }
