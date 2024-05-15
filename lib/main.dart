@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/screens/Drop_Down/DropHome.dart';
+<<<<<<< HEAD
+=======
 import 'package:flutter_application_1/screens/animation/GuitarAdnimation/Guitar.dart';
 import 'package:flutter_application_1/screens/animation/fade_adnimation/fade.dart';
 import 'package:flutter_application_1/screens/connectivity_plus/connectivity.dart';
+>>>>>>> 6948d9de43a31843e7e1c0901d0a73e6dcb136dd
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {

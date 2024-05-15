@@ -551,7 +551,13 @@ packages:
       sha256: d584fa6707a52763a52446f02cc621b077888fb63b93bbcb1143a7be5a0c0c04
       url: "https://pub.dev"
     source: hosted
+<<<<<<< HEAD
+    version: "1.12.0"
+<<<<<<< HEAD
+=======
+=======
     version: "1.11.0"
+>>>>>>> 6948d9de43a31843e7e1c0901d0a73e6dcb136dd
   mime:
     dependency: transitive
     description:
@@ -568,6 +574,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.0"
+<<<<<<< HEAD
+=======
   nm:
     dependency: transitive
     description:
@@ -576,6 +584,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.5.0"
+>>>>>>> 6948d9de43a31843e7e1c0901d0a73e6dcb136dd
   package_config:
     dependency: transitive
     description:
@@ -584,6 +593,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
+>>>>>>> 56ca14e34e72c0928aa318bd0bb9a911703ff406
   path:
     dependency: transitive
     description:
@@ -852,7 +862,13 @@ packages:
       sha256: "5c2f730018264d276c20e4f1503fd1308dfbbae39ec8ee63c5236311ac06954b"
       url: "https://pub.dev"
     source: hosted
+<<<<<<< HEAD
+    version: "0.7.0"
+<<<<<<< HEAD
+=======
+=======
     version: "0.6.1"
+>>>>>>> 6948d9de43a31843e7e1c0901d0a73e6dcb136dd
   timing:
     dependency: transitive
     description:
@@ -885,6 +901,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.3.3"
+>>>>>>> 56ca14e34e72c0928aa318bd0bb9a911703ff406
   vector_math:
     dependency: transitive
     description:
@@ -900,7 +917,13 @@ packages:
       sha256: b3d56ff4341b8f182b96aceb2fa20e3dcb336b9f867bc0eafc0de10f1048e957
       url: "https://pub.dev"
     source: hosted
+<<<<<<< HEAD
+    version: "14.0.0"
+<<<<<<< HEAD
+=======
+=======
     version: "13.0.0"
+>>>>>>> 6948d9de43a31843e7e1c0901d0a73e6dcb136dd
   watcher:
     dependency: transitive
     description:
@@ -957,6 +980,11 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.2"
+>>>>>>> 56ca14e34e72c0928aa318bd0bb9a911703ff406
 sdks:
+<<<<<<< HEAD
+  dart: ">=3.4.0-24.0.dev <4.0.0"
+=======
   dart: ">=3.3.0 <4.0.0"
+>>>>>>> 6948d9de43a31843e7e1c0901d0a73e6dcb136dd
   flutter: ">=3.19.0"
