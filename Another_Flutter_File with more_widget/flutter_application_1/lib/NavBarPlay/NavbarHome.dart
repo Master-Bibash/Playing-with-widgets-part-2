@@ -5,9 +5,8 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:circular_reveal_animation/circular_reveal_animation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-
-
-
+import 'package:just/NavBarPlay/One.dart';
+import 'package:just/NavBarPlay/Two.dart';
 
 class NavHome extends StatefulWidget {
   NavHome({Key? key, required this.title}) : super(key: key);
@@ -37,6 +36,11 @@ class _NavHomeState extends State<NavHome> with TickerProviderStateMixin {
     Icons.brightness_7,
   ];
 
+  final pagelist = [
+    One(),
+    Two(),
+    
+  ];
   @override
   void initState() {
     super.initState();
@@ -109,7 +113,7 @@ class _NavHomeState extends State<NavHome> with TickerProviderStateMixin {
       ),
       body: NotificationListener<ScrollNotification>(
         onNotification: onScrollNotification,
-        child: NavigationScreen(iconList[_bottomNavIndex]),
+        child: (pagelist[_bottomNavIndex]),
       ),
       floatingActionButton: FloatingActionButton(
         shape: CircleBorder(),
@@ -125,13 +129,10 @@ class _NavHomeState extends State<NavHome> with TickerProviderStateMixin {
         },
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      
       bottomNavigationBar: AnimatedBottomNavigationBar.builder(
         itemCount: iconList.length,
         tabBuilder: (int index, bool isActive) {
-          final color = isActive
-              ? Colors.yellow
-              : Colors.pink;
+          final color = isActive ? Colors.yellow : Colors.pink;
           return Column(
             mainAxisSize: MainAxisSize.min,
             mainAxisAlignment: MainAxisAlignment.center,
